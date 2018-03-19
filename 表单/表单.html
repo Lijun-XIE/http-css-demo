@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表单 </title>
+  </head>
+  <body>
+    <form action="http://www.baidu.com" method="post">
+      <p>
+        用户名：<input type="text" name="username" placeholder="ueser"/>
+      </p>
+      <p>密码：<input type="password" name="password"/>
+      </p>
+      <p>性别：男<input type="radio" name="xingbie" value="man" checked="checked"/>
+        女<input type="radio" name="xingbie" value="woman"/>
+      </p>
+      <p>地区：<input type="text" name="area"/>
+      </p>
+      <p>个人简历：<input type="text" name="resume" value="个人简历"/>
+      </p>
+      <p>文本框<input type="text" name="text"/>
+      </p>
+      <p>爱好：篮球<input type="checkbox" name="hobby" value="baskball"/>
+              足球<input type="checkbox" name="hobby" value="football" checked="checked"/>
+              混球<input type="checkbox" name="hobby" value="hunqiu"/>
+      </p>
+      <p>
+          <select name="xueli">
+            <option value="大学">大学</option>
+            <option value="初中">初中</option>
+            <option value="小学" selected="selected">小学</option>
+            <option value="幼儿园">幼儿园</option>
+          </select>
+      </p>
+      <p>
+        <textarea name="intro">i am from hahahahahahahaha</textarea>
+      </p>
+      <p> 上传头像：<input type="file" name="picture"/></p>
+      <p>
+        隐藏域：<input type="hidden"  name="ip" value="199.344.234"/>
+      </p>
+      <p> <input type="submit" value="提交"/></p>
+      <p> </p>
+
+      <p> </p>
+    </form>
+  </body>
+</html>

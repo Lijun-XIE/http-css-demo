@@ -1,0 +1,203 @@
+.clr {
+    clear:both;
+    width:0px;
+    height:0px;
+}
+
+#container{
+  width:1002px;
+  margin:0 auto;
+}
+ #header{
+   height:128px;
+   background:gray url(./images/top_bg.jpg);
+   background-repeat:no-repeat;
+ }
+ #nav li{
+
+   width:90px;
+   margin-right:1px;
+   float:left;
+ }
+ #nav a{
+   font-size:16px;
+   font-family:"微软雅黑";
+   color:#363636;
+   display:block;
+   width:90px;
+   height:36px;
+   text-align:center;
+
+ }
+
+ #nav a:hover{
+   color:white;
+   background:orange url(./images/nav_on.gif);
+ }
+
+ #main{
+
+
+  /*
+  width:1002px;
+   border:1px solid gray;
+   */
+   margin:10px 0px;
+ }
+
+ #leftside{
+   width:720px;
+   height:420px;
+   border:1px solid gray;
+   margin-right:10px;
+   float:left;
+
+ }
+
+ .subtitle{
+   height:37px;
+   background:gray url(./images/index_main_top_bg.gif);
+   color:black;
+
+ }
+
+ .subtitle img{
+   float:left;
+   margin:5px 0px 0px 10px;
+ }
+
+ .subtitle h1{
+   float:left;
+   font-size:16px;
+   margin-left:10px;
+   font-family:'Microsoft Yahei',SimHei,sans-serif;
+ }
+
+.subtitle a{
+  font-size:12px;
+  color:gray;
+  float:right;
+}
+
+ .four{
+   width:345px;
+   height:180px;
+   background:#EEE;
+
+   color:#363636;
+
+   margin:5px;
+   float:left;
+ }
+ .four img{
+   float:left;
+   margin:3px;
+   padding:3px;
+   background:white;
+ }
+
+.four h2{
+  margin:6px 0 3px 10px;
+  font-size:15px;
+  font-family:'Microsoft Yahei',SimHei,sans-serif;
+}
+ .four ul{
+   font-size:12px;
+   font-family:serif;
+   float:left;
+
+ }
+ .four li{
+   background:#EEE url(./images/service_intro_bg.gif);
+   background-repeat:no-repeat;
+   padding-left:10px;
+   margin:10px;
+   height:10px;
+ }
+ .four a{
+   color:black;
+ }
+ .four a:visited{
+   color:red;
+ }
+
+
+ #rightside{
+   width:260px;
+   height:420px;
+   border:1px solid gray;
+   float:right;
+
+ }
+
+
+ #rightup {
+   width:260px;
+   height:180px;
+
+   background:#EEE;
+   margin-top:5px;
+ }
+
+ #rightup ul{
+   font-size:13px;
+   font-family:serif;
+   float:left;
+ }
+
+ #rightup a{
+   color:gray;
+   height:20px;
+   display:block;
+   padding-left:20px;
+   background:#EEE url(./images/article_head.gif);
+   background-repeat:no-repeat;
+   background-position:0px -5px;
+ }
+  #rightup a:hover{
+    color:orange;
+    background:url(./images/article_on_bg.gif);
+    background-position:0px -6px;
+  }
+
+#rightdown{
+  margin-top:10px;
+}
+ #rd {
+   width:240px;
+   height:120px;
+
+   background:#EEE;
+   margin-top:5px;
+   padding:10px;
+   font-size:13px;
+
+ }
+
+
+#footer{
+  background:#EEE url(./images/index_main_top_bg.gif);
+  height:120px;
+  margin-top:10px;
+}
+
+#wenmo{
+  width:1002px;
+
+  float:left;
+}
+
+#footer li{
+  border-left:1px solid gray;
+  float:left;
+  padding:5px;
+}
+
+#wenzi{
+  width:1002px;
+
+  margin-top:15px;
+  font-size:12px;
+  font-family:serif;
+
+}
